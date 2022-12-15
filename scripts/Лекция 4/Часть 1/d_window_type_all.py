@@ -2,7 +2,7 @@
 Демонстрация применения флагов Qt.WindowType
 """
 
-from PySide6 import QtWidgets, QtCore
+from PySide2 import QtWidgets, QtCore
 
 
 class PreviewWindow(QtWidgets.QWidget):
@@ -301,4 +301,4 @@ if __name__ == '__main__':
     controller = Window()
     controller.show()
 
-    app.exec()
+    app.exec_()

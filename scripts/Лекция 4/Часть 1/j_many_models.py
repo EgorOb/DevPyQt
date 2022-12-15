@@ -2,7 +2,7 @@
 Демонстрация использования сразу нескольких моделей
 """
 
-from PySide6 import QtCore, QtWidgets, QtGui
+from PySide2 import QtCore, QtWidgets, QtGui
 from random_word import RandomWords
 
 
@@ -149,4 +149,4 @@ if __name__ == "__main__":
     myWindow = Window()
     myWindow.show()
 
-    app.exec()
+    app.exec_()

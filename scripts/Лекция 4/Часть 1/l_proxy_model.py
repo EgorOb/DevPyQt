@@ -4,7 +4,7 @@
 
 from typing import Union, Any
 
-from PySide6 import QtCore, QtWidgets
+from PySide2 import QtCore, QtWidgets
 from random_word import RandomWords
 
 
@@ -147,4 +147,4 @@ if __name__ == '__main__':
     window = Window()
     window.show()
 
-    app.exec()
+    app.exec_()

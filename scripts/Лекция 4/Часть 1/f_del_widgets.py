@@ -2,7 +2,7 @@
 Демонстрация создания и удаления виджетов
 """
 
-from PySide6 import QtWidgets
+from PySide2 import QtWidgets
 
 
 class Window(QtWidgets.QWidget):
@@ -103,4 +103,4 @@ if __name__ == "__main__":
     window = Window()
     window.show()
 
-    app.exec()
+    app.exec_()

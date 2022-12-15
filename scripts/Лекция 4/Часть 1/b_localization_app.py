@@ -5,7 +5,7 @@
 import os
 from pathlib import Path
 
-from PySide6 import QtCore, QtWidgets, QtGui
+from PySide2 import QtCore, QtWidgets, QtGui
 
 
 class Window(QtWidgets.QWidget):
@@ -173,4 +173,4 @@ if __name__ == "__main__":
     myapp = Window()
     myapp.show()
 
-    app.exec()
+    app.exec_()

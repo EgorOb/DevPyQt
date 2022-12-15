@@ -4,7 +4,7 @@
 
 import time
 
-from PySide6 import QtCore, QtWidgets, QtGui
+from PySide2 import QtCore, QtWidgets, QtGui
 
 
 class LoadScreen(QtWidgets.QWidget):
@@ -27,8 +27,8 @@ class LoadScreen(QtWidgets.QWidget):
 
         self.hide()  # скрываем по умолчанию
 
-        # self.movie = QtGui.QMovie("static/gif/load_1.gif")
-        self.movie = QtGui.QMovie("static/gif/load_2.gif")
+        self.movie = QtGui.QMovie("static/gif/load_1.gif")
+        # self.movie = QtGui.QMovie("static/gif/load_2.gif")
 
         labelAnimation = QtWidgets.QLabel()
         labelAnimation.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
@@ -137,4 +137,4 @@ if __name__ == "__main__":
     window = Window()
     window.show()
 
-    app.exec()
+    app.exec_()

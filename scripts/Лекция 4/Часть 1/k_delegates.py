@@ -7,7 +7,7 @@ import random
 import time
 from typing import Union
 
-from PySide6 import QtWidgets, QtGui, QtCore
+from PySide2 import QtWidgets, QtGui, QtCore
 
 
 class DoubleSpinBoxDelegate(QtWidgets.QStyledItemDelegate):
@@ -247,4 +247,4 @@ if __name__ == '__main__':
     win = Window()
     win.show()
     
-    app.exec()
+    app.exec_()

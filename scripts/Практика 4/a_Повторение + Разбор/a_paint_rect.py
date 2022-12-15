@@ -1,5 +1,5 @@
 import time
-from PySide6 import QtCore, QtWidgets, QtGui
+from PySide2 import QtCore, QtWidgets, QtGui
 
 
 class MyDrawRect(QtWidgets.QWidget):

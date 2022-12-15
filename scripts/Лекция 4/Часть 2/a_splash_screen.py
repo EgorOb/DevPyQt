@@ -3,7 +3,7 @@
 """
 
 import time
-from PySide6 import QtCore, QtWidgets, QtGui
+from PySide2 import QtCore, QtWidgets, QtGui
 
 
 class SplashScreen(QtWidgets.QSplashScreen):
@@ -61,4 +61,4 @@ if __name__ == "__main__":
 
     myapp = Window()
 
-    app.exec()
+    app.exec_()

@@ -2,7 +2,7 @@
 Демонстрация использования древовидной модели
 """
 
-from PySide6 import QtWidgets, QtGui
+from PySide2 import QtWidgets, QtGui
 
 
 class Window(QtWidgets.QWidget):
@@ -100,4 +100,4 @@ if __name__ == '__main__':
     window = Window()
     window.show()
 
-    app.exec()
+    app.exec_()
